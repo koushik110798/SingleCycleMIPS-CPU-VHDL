@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "/home/sam/cs341/team18/lab3/cpu.xst" -ofn "/home/sam/cs341/team18/lab3/cpu.syr" 

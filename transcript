@@ -1,0 +1,126 @@
+# do {cpu.fdo} 
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity full_adder
+# -- Compiling architecture Behavioral of full_adder
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity adder32
+# -- Compiling architecture Behavioral of adder32
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity neg32
+# -- Compiling architecture Behavioral of neg32
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity signextend
+# -- Compiling architecture Behavioral of signextend
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity regs
+# -- Compiling architecture Behavioral of regs
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity pc
+# -- Compiling architecture Behavioral of pc
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux5
+# -- Compiling architecture Behavioral of mux5
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux
+# -- Compiling architecture Behavioral of mux
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture Behavioral of mem
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity lshift2
+# -- Compiling architecture Behavioral of lshift2
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity instr
+# -- Compiling architecture Behavioral of instr
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity control
+# -- Compiling architecture Behavioral of control
+# ** Warning: control.vhd(38): (vcom-1186) Array type selected signal assignment expression must be of a locally static subtype.
+# ** Warning: control.vhd(40): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(41): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(42): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(43): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(44): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(45): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(46): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(47): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(48): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(49): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(50): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(51): Choice in selected signal assignment must be locally static.
+# ** Warning: control.vhd(52): Choice in selected signal assignment must be locally static.
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity alu
+# -- Compiling architecture Behavioral of alu
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity cpu
+# -- Compiling architecture Behavioral of cpu
+# vsim -lib work -voptargs=\"+acc\" -t 1ps work.cpu 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.cpu(behavioral)
+# Loading ieee.numeric_std(body)
+# Loading work.pc(behavioral)
+# Loading work.adder32(behavioral)
+# Loading work.full_adder(behavioral)
+# Loading work.alu(behavioral)
+# Loading work.neg32(behavioral)
+# Loading work.control(behavioral)
+# Loading work.instr(behavioral)
+# Loading work.regs(behavioral)
+# Loading work.mux5(behavioral)
+# Loading work.signextend(behavioral)
+# Loading work.mux(behavioral)
+# Loading work.mem(behavioral)
+# Loading work.lshift2(behavioral)
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
