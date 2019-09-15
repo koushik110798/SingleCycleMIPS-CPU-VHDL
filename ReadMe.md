@@ -1,7 +1,7 @@
 + Project Decription  
 
 + Implimented a Single Cycle MIPS CPU using VHDL in Xilinx enviorment
-+ The cycle is mentioned in the image uploaded
++ The cycle is mentioned in the Screen Shot uploaded
 + The main files of the project are 
 + adder32.vhd 
 + alu.vhd
